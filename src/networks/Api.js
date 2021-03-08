@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 
-let url='https://jumia-mearn.herokuapp.com'
-
+let url=process.env.URL_SERVER;
 
 export const GetOrders=async()=>{
 
